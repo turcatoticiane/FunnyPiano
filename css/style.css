@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:linear-gradient(#c6ffdd, #fbd786, #f7797d);
+    min-height: 100vh;
+  }
+  
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color:crimson;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px; 
+    background:khaki;
+    border-radius: 30px;
+    padding: 10px;
+  }
+  
+  button {
+    border-radius: 20px;
+    border-style:inherit;
+    cursor: pointer;
+    font-size: 2rem;
+    height: 80px;
+    width: 80px;
+    background:rgb(252, 255, 219);
+  }
