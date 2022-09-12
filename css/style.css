@@ -46,7 +46,7 @@
     box-shadow: inset;
   }
 
-  @media screen and (max-width: 480px) {
+  @media (max-width: 760px) {
     .board {
       grid-template-columns: repeat(3, 1fr);
     }
